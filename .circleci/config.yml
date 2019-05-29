@@ -138,7 +138,7 @@ build-steps: &build-steps
 
 build-defaults: &build-defaults
   docker:
-    - image: electronbuilds/electron:0.0.10
+    - image: electronbuilds/electron:0.0.8.1
   <<: *build-steps
 
 version: 2
